@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "nombre": "Pizza Mozzarella",
+    "precio": 140,
+    "imagen": "img/pizza1.jpg",
+    "categoria": "PIZZAS",
+    "cantidad": 1
+  },
+  {
+    "id": 2,
+    "nombre": "Pizza 4 Quesos",
+    "precio": 180,
+    "imagen": "img/pizza2.jpg",
+    "categoria": "PIZZAS",
+    "cantidad": 1
+  },
+  {
+    "id": 3,
+    "nombre": "Pizza Calabresa",
+    "precio": 200,
+    "imagen": "img/pizza3.jpg",
+    "categoria": "PIZZAS",
+    "cantidad": 1
+  },
+  {
+    "id": 4,
+    "nombre": "Pizza El Gran Ricardo",
+    "precio": 250,
+    "imagen": "img/pizza4.jpg",
+    "categoria": "PIZZAS",
+    "cantidad": 1
+  },
+  {
+    "id": 5,
+    "nombre": "Hamburguesa smpl.",
+    "precio": 200,
+    "imagen": "img/hamburguesa1.jpg",
+    "categoria": "MINUTAS",
+    "cantidad": 1
+  },
+  {
+    "id": 6,
+    "nombre": "Hamburguesa cmpt.",
+    "precio": 250,
+    "imagen": "img/hamburguesa2.jpg",
+    "categoria": "MINUTAS",
+    "cantidad": 1
+  },
+  {
+    "id": 7,
+    "nombre": "Lomo Simple",
+    "precio": 300,
+    "imagen": "img/lomo1.jpg",
+    "categoria": "MINUTAS",
+    "cantidad": 1
+  },
+  {
+    "id": 8,
+    "nombre": "Lomo Completo",
+    "precio": 350,
+    "imagen": "img/lomo2.jpg",
+    "categoria": "MINUTAS",
+    "cantidad": 1
+  },
+  {
+    "id": 9,
+    "nombre": "Papas Fritas",
+    "precio": 100,
+    "imagen": "img/papas.jpg",
+    "categoria": "MINUTAS",
+    "cantidad": 1
+  },
+  {
+    "id": 10,
+    "nombre": "Empanadas Arabes",
+    "precio": 400,
+    "imagen": "img/empanadas1.jpg",
+    "categoria": "EMPANADAS",
+    "cantidad": 1
+  },
+  {
+    "id": 11,
+    "nombre": "Empandas Criollas",
+    "precio": 400,
+    "imagen": "img/empanadas2.png",
+    "categoria": "EMPANADAS",
+    "cantidad": 1
+  },
+  {
+    "id": 12,
+    "nombre": "Empanadas J&Q",
+    "precio": 400,
+    "imagen": "img/empanadas3.jpg",
+    "categoria": "EMPANADAS",
+    "cantidad": 1
+  },
+  {
+    "id": 13,
+    "nombre": "Coca Cola 350 ml.",
+    "precio": 80,
+    "imagen": "img/gaseosa1.jpg",
+    "categoria": "BEBIDAS",
+    "cantidad": 1
+  },
+  {
+    "id": 14,
+    "nombre": "Pepsi 350 ml.",
+    "precio": 70,
+    "imagen": "img/gaseosa2.jpg",
+    "categoria": "BEBIDAS",
+    "cantidad": 1
+  },
+  {
+    "id": 15,
+    "nombre": "Quilmes 1 lt.",
+    "precio": 120,
+    "imagen": "img/cerveza1.jpg",
+    "categoria": "BEBIDAS",
+    "cantidad": 1
+  },
+  {
+    "id": 16,
+    "nombre": "Brahma 1 lt.",
+    "precio": 110,
+    "imagen": "img/cerveza2.jpg",
+    "categoria": "BEBIDAS",
+    "cantidad": 1
+  },
+  {
+    "id": 17,
+    "nombre": "Stella Artois 1 lt.",
+    "precio": 160,
+    "imagen": "img/cerveza3.jpg",
+    "categoria": "BEBIDAS",
+    "cantidad": 1
+  },
+  {
+    "id": 18,
+    "nombre": "Vino Dada 750 ml.",
+    "precio": 160,
+    "imagen": "img/vino1.jpg",
+    "categoria": "BEBIDAS",
+    "cantidad": 1
+  },
+  {
+    "id": 19,
+    "nombre": "Vino Colon 750 ml",
+    "precio": 130,
+    "imagen": "img/vino2.jpg",
+    "categoria": "BEBIDAS",
+    "cantidad": 1
+  },
+  {
+    "id": 20,
+    "nombre": "Vino de la casa (Vaso)",
+    "precio": 75,
+    "imagen": "img/vino3.png",
+    "categoria": "BEBIDAS",
+    "cantidad": 1
+  },
+  {
+    "id": 21,
+    "nombre": "Agua c/s gas",
+    "precio": 50,
+    "imagen": "img/agua.jpg",
+    "categoria": "BEBIDAS",
+    "cantidad": 1
+  }
+]

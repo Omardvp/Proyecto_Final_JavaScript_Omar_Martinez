@@ -132,3 +132,16 @@ h2 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.footer-redes {
+    display: flex;
+    list-style: none;
+
+    flex-direction: column;
+}
+
+.iFooter {
+    color: white;
+    margin-right: 20px;
+} 
+

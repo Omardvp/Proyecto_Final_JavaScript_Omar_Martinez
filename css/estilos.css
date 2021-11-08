@@ -102,8 +102,8 @@ h2 {
 }
 
 .pie {
-    background-color: yellow;
-    color: white;
+    background-color: blue;
+    color: black;
     margin-bottom: 0;
 }
 .pie i {
@@ -114,7 +114,7 @@ h2 {
     text-align: center;
     padding: 12px 0;
     font-size: 16px;
-    background-color: blue;
+    background-color: yellow;
     margin-bottom: 0px;
     font-weight: bold;
 }
@@ -129,21 +129,6 @@ h2 {
     color: black;
     font-size: 14px;
     font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-
-
-.footer-redes {
-    display: flex;
-    list-style: none;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 150px;
-  }
-
-
-.iFooter {
-    color: rgb(68, 65, 65);
-    margin-right: 20px;
-    
-} 

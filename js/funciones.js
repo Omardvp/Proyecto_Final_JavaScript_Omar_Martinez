@@ -56,6 +56,10 @@ function carritoUI(productos){
   $("#btnConfirmar").on("click",enviarCompra)
   // $("#btnConfirmar").on("click",actualizarPrecio)
   $("#btnConfirmar").on("click",modalFinal)
+  document.getElementById("btnConfirmar").addEventListener('click', () => {
+    localStorage.clear()
+    carrito.length = 0 
+  })
 }
 //FUNCION PARA GENERAR LA ESTRUCTURA DEL REGISTO HTML
 function registroCarrito(producto){

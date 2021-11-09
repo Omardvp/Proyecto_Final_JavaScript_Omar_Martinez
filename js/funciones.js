@@ -170,7 +170,9 @@ function modalBtnCompra(event) {
     background: "black",
     },
     onClick: function(){}
-}).showToast();
+}).showToast() = () => {
+  event.hideToast();
+  }
 }
 
 function modalFinal(event) {

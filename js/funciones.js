@@ -135,6 +135,7 @@ function enviarCompra() {
       $('#carritoProductos').empty();
       //Vacio el numero de productos
       $('#carritoCantidad').html("0");
+      actualizarPrecio()
     }else{
       console.log('Los datos no se enviaron correctamente');
     }    
@@ -143,7 +144,7 @@ function enviarCompra() {
 }
 
 
-precioFinal.innerText = ""
+precioFinal.innerText = "0"
 function actualizarPrecio(event) {
   let precioFinal = document.getElementById('precioFinal');
   precioFinal.innerText = carrito.reduce((acc, el) => acc + (el.precio * el.cantidad), 0)

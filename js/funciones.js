@@ -69,9 +69,9 @@ function registroCarrito(producto){
   <td><span class="badge badge-warning">$ ${producto.precio}</span></td>
   <td><span class="badge badge-dark">${producto.cantidad}</span></td>
   <td><span class="badge badge-warning"> $ ${producto.subtotal()}</span></td>
-  <td class="btn-add"><button id="${producto.id}" class="btn btn-dark">+</button></td> 
-  <td class="btn-sub"><button id="${producto.id}" class="btn btn-dark">-</button></td>  
-  <td><a id="${producto.id}" class="btn btn-warning btn-delete"><i class="fas fa-trash-alt"></i></a></td>         
+  <td><button id="${producto.id}" class="btn-add btn btn-dark">+</button></td> 
+  <td><button id="${producto.id}" class="btn-sub btn btn-dark">-</button></td>  
+  <td><i style="padding: 10px 12px;" id="${producto.id}" class="fas fa-trash-alt btn btn-warning btn-delete"></i></td>         
   </tr>`
 
 }
@@ -98,8 +98,8 @@ function agregarCarrito(event) {
   //Uso el metodo agregar cantidad
   producto.agregarCantidad(1);
   //Uso (this).parent().children() para acceder a todos los hijos del carrito y poder editarlos
-  $(this).parent().children()[3].innerHTML = `<span class="badge badge-dark">${producto.cantidad}</span>`;
-  $(this).parent().children()[4].innerHTML = `<span class="badge badge-warning">${producto.subtotal()}</span>`;
+  $(this).parent().parent().children()[3].innerHTML = `<span class="badge badge-dark">${producto.cantidad}</span>`;
+  $(this).parent().parent().children()[4].innerHTML = `<span class="badge badge-warning">${producto.subtotal()}</span>`;
   //Almaceno en el storage el carrito actualizado
   localStorage.setItem('carrito', JSON.stringify(carrito));
   actualizarPrecio()  

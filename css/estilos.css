@@ -3,11 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background-image: url(../img/congruent_outline.png);
     background-position: center;
-    
-} 
+
+}
 
 .headerStyle {
     display: flex;
@@ -20,7 +21,7 @@ body {
     color: black;
 }
 
-h1 { 
+h1 {
     font-family: "Boogaloo";
     font-size: 60px;
     text-transform: uppercase;
@@ -31,6 +32,7 @@ h2 {
     font-family: "Boogaloo";
     font-size: 50px;
 }
+
 .categorias {
     text-align: center;
     color: orange;
@@ -42,7 +44,7 @@ h2 {
     /* background-color: white; */
     border-radius: 5px;
     color: black;
-    
+
 }
 
 .card {
@@ -62,18 +64,18 @@ h2 {
     border-radius: 5px;
     padding: 5px;
     border: solid 2px black;
-   
+
 
 }
 
-.lalala {
+.modal-title {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.titutloCarrito {
+.logoCarrito {
     font-family: "Boogaloo";
 }
 
@@ -86,7 +88,7 @@ h2 {
     height: 46px;
     font-size: 15px;
     font-weight: bold;
-    
+
 }
 
 #total {
@@ -106,6 +108,7 @@ h2 {
     color: black;
     margin-bottom: 0;
 }
+
 .pie i {
     font-size: 25px;
 }
@@ -119,13 +122,13 @@ h2 {
     font-weight: bold;
 }
 
-.footer-content{
+.footer-content {
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
 }
 
-.footer-info{
+.footer-info {
     color: black;
     font-size: 14px;
     font-weight: bold;
@@ -143,5 +146,20 @@ h2 {
 .iFooter {
     color: white;
     margin-right: 20px;
-} 
+}
 
+.cardStyle {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: auto;
+    height: 50x;
+}
+
+.card2 {
+    margin: 7px 7px;
+}
+
+.headerStyle img:hover {
+    transform: scale(1.1);
+}

@@ -115,8 +115,8 @@ function restarCarrito(event) {
     //Uso el metodo agregar cantidad con -1 para restar
     producto.agregarCantidad(-1);
     //Uso (this).parent().children() para acceder a todos los hijos del carrito y poder editarlos
-    $(this).parent().children()[3].innerHTML = `<span class="badge badge-dark">${producto.cantidad}</span>`;
-    $(this).parent().children()[4].innerHTML = `<span class="badge badge-warning">${producto.subtotal()}</span>`;
+    $(this).parent().parent().children()[3].innerHTML = `<span class="badge badge-dark">${producto.cantidad}</span>`;
+    $(this).parent().parent().children()[4].innerHTML = `<span class="badge badge-warning">${producto.subtotal()}</span>`;
     //Almaceno en el storage el carrito actualizado
     localStorage.setItem('carrito', JSON.stringify(carrito));
     actualizarPrecio()

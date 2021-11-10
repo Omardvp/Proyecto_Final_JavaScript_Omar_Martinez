@@ -160,6 +160,6 @@ h2 {
     margin: 7px 7px;
 }
 
-.headerStyle img:hover {
+.grheader:hover {
     transform: scale(1.1);
 }

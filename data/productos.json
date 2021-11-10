@@ -35,7 +35,7 @@
     "id": 5,
     "nombre": "Hamburguesa smpl.",
     "precio": 200,
-    "imagen": "img/hamburguesa1.jpg",
+    "imagen": "img/hamburguesa.jpg",
     "categoria": "MINUTAS",
     "cantidad": 1
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "nombre": "Hamburguesa cmpt.",
     "precio": 250,
-    "imagen": "img/hamburguesa2.jpg",
+    "imagen": "img/hamburguesa1.jpg",
     "categoria": "MINUTAS",
     "cantidad": 1
   },
@@ -123,7 +123,7 @@
     "id": 16,
     "nombre": "Brahma 1 lt.",
     "precio": 110,
-    "imagen": "img/cerveza2.jpg",
+    "imagen": "img/cervezaB.jpg",
     "categoria": "BEBIDAS",
     "cantidad": 1
   },

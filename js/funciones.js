@@ -2,7 +2,7 @@
 function productosUI(productos, id) {
   $(id).empty();
   for (const producto of productos) {
-    $(id).append(`<div class="card card2 style="width: 18rem;">
+    $(id).append(`<div class="card card2 data-aos="fade-up" style="width: 18rem;">
      <img src="${producto.imagen}" class="card-img-top" alt="..." width="120px" height="230px">
      <div class="card-body">
        <h5 class="card-title">${producto.nombre}</h5>

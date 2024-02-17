@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/congruent_outline.png);
+    background-position: center;
+
+}
+
+.headerStyle {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 2px orange;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    font-family: "Boogaloo";
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Boogaloo";
+    font-size: 50px;
+}
+
+.categorias {
+    text-align: center;
+    color: orange;
+}
+
+
+
+.container {
+    /* background-color: white; */
+    border-radius: 5px;
+    color: black;
+
+}
+
+.card {
+    background-color: rgba(255, 255, 255, .2);
+    border: solid 1px orange;
+    color: white;
+}
+
+.modalStyle {
+    text-align: center;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    position: unset;
+    margin-top: 100px;
+    border-radius: 5px;
+    padding: 5px;
+    border: solid 2px black;
+
+
+}
+
+.modal-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoCarrito {
+    font-family: "Boogaloo";
+}
+
+.btn-confirm {
+    text-align: center;
+    background-color: orange;
+    border-radius: 5px;
+    color: black;
+    border: solid 1px black;
+    height: 46px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+#total {
+    font-weight: bold;
+}
+
+
+.cardProducto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.pie {
+    background-color: blue;
+    color: black;
+    margin-bottom: 0;
+}
+
+.pie i {
+    font-size: 25px;
+}
+
+.pie p {
+    text-align: center;
+    padding: 12px 0;
+    font-size: 16px;
+    background-color: yellow;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.footer-content {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-redes {
+    display: flex;
+    list-style: none;
+
+    flex-direction: column;
+}
+
+.iFooter {
+    color: white;
+    margin-right: 20px;
+}
+
+.cardStyle {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: auto;
+    height: 50x;
+}
+
+.card2 {
+    margin: 7px 7px;
+}
+
+.grheader:hover {
+    transform: scale(1.1);
+}
